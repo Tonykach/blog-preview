@@ -1,0 +1,94 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: Figtree;
+    margin-top: 2em;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+p {
+    font-family: Figtree;
+}
+.head {
+    font-weight: 800;
+    margin-top: 0.4em;
+    font-size: 1.4em;
+}
+.head:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+@font-face {
+    font-family: Figtree;
+    src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+.pic {
+    width: 100%;
+    border-radius: 10px;
+}
+.avatar {
+    width: 40px;
+}
+.description {
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.header {
+    font-size: 0.8em;
+    padding: 4px;
+    text-align: center;
+    width: 70px;
+    font-weight: 800;
+    border-radius: 3px;
+    background-color: hsl(47, 88%, 63%);
+}
+.name {
+    font-weight: 800;
+    font-size: 0.8em;
+    position: relative;
+    top: -3.4em;
+    left: 4em;
+}
+.date {
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.container {
+    background-color: white;
+    height: 460px;
+    width: 310px;
+    padding: 1.3em 1.3em 0;
+    border-radius: 12px;
+    box-shadow: 7px 7px hsl(0, 0%, 7%);
+}
+@media (max-width: 375px) {
+    .container {
+        max-width: 70vw;
+        height: auto;
+    }
+    .pic {
+        width: 100%;
+    }
+    .description {
+        font-size: 0.8em;
+        margin-top: -0.8em;
+    }
+}
+@media (min-width: 376px) and (max-width: 600px) {
+    .container {
+        max-width: 95vw;
+    }
+}
